@@ -19,8 +19,6 @@ func main() {
 		return
 	}
 
-	fmt.Println(args)
-
 	title := ""
 	if len(args) > 1 {
 		title = args[1]
